@@ -110,28 +110,6 @@ Documentation: Word / PDF
 
 Version Control: GitHub
 
-🗂️ Repository Structure
-checkout-ab-test-product-analytics/
-│
-├── notebooks/
-│   └── AB_Testing.ipynb
-│
-├── figures/
-│   └── *.png
-│
-├── docs/
-│   ├── Feature_Documentation.docx
-│   ├── Experiment_Design_Document.docx
-│   ├── Data_Dictionary.docx
-│   ├── Metric_Definitions.docx
-    ├── Architecture workflow and diagram document.docx 
-│   └── Executive_Summary.docx
-│
-├── data/
-│   └── DataREADME.md
-│
-└── README.md
-
 📂 Data Availability
 
 The original raw event dataset (~8GB) is not included due to storage constraints.
