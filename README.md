@@ -1,4 +1,5 @@
 🧪 A/B Testing Analysis – Checkout Flow Optimization
+
 📌 Project Overview
 
 This project presents an end-to-end A/B testing analysis conducted to evaluate a redesigned checkout flow for a multi-category e-commerce platform. The goal was to determine whether simplifying the checkout experience could reduce user drop-off and increase completed purchases, while ensuring no negative impact on key business guardrails.
