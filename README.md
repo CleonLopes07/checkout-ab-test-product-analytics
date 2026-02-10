@@ -109,3 +109,77 @@ Storage: Parquet
 Documentation: Word / PDF
 
 Version Control: GitHub
+
+🗂️ Repository Structure
+checkout-ab-test-product-analytics/
+│
+├── notebooks/
+│   └── AB_Testing.ipynb
+│
+├── figures/
+│   └── *.png
+│
+├── docs/
+│   ├── Feature_Documentation.docx
+│   ├── Experiment_Design_Document.docx
+│   ├── Data_Dictionary.docx
+│   ├── Metric_Definitions.docx
+    ├── Architecture workflow and diagram document.docx 
+│   └── Executive_Summary.docx
+│
+├── data/
+│   └── DataREADME.md
+│
+└── README.md
+
+📂 Data Availability
+
+The original raw event dataset (~8GB) is not included due to storage constraints.
+
+Analysis is fully reproducible using the processed session-level dataset:
+
+sessions_with_segments_fixed.parquet
+
+All feature engineering, aggregation, and experiment logic are documented in the notebook.
+
+▶️ How to Run the Analysis
+
+Clone the repository:
+
+git clone https://github.com/CleonLopes07/checkout-ab-test-product-analytics/
+
+
+Open the notebook in Jupyter or Google Colab:
+
+notebooks/AB_Testing_Checkout_Flow.ipynb
+
+
+Ensure required Python libraries are installed.
+
+Run cells sequentially to reproduce the analysis.
+
+⚠️ Limitations
+
+Experimental outcomes are simulated rather than generated from live production traffic.
+
+Multiple sessions per user may introduce correlation.
+
+External factors such as seasonality or promotions are not modeled.
+
+🚀 Future Improvements
+
+Validate results using a live production A/B test.
+
+Explore personalized checkout flows by user segment.
+
+Extend analysis to long-term retention and lifetime value (LTV).
+
+👤 Author
+
+Cleon
+Aspiring Product Analyst / Data Analyst
+Focused on experimentation, product metrics, and data-driven decision-making.
+
+🏷️ Tags
+
+ab-testing · product-analytics · experiment-design · statistics · python · data-analysis
